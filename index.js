@@ -2,7 +2,7 @@ let express = require("express");
 let cors = require("cors");
 let { config } = require("./config");
 let app = express();
-
+let serverRoutes = require("./routes");
 
 
 // Settings
